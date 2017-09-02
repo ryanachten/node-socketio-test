@@ -4,7 +4,6 @@ socket.on('connect', function(){
   console.log('Connnected to server');
   /*
   socket.emit('createMessage', {
-    to: 'Bob',
     from: 'Jane',
     text: 'this is some text from jane',
   });
